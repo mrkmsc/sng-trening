@@ -10,7 +10,7 @@ if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: re
     }
   }, { threshold: 0.1 });
 
-  document.querySelectorAll(".section h2, .person, .program-stage, .application-tile").forEach((element) => {
+  document.querySelectorAll(".section h2, .person, .program-stage").forEach((element) => {
     observer.observe(element);
   });
 }

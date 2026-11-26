@@ -99,14 +99,49 @@
     <h2>Гипноз в вашей практике</h2>
     <p class="lead measure">Инструменты СНГ можно сочетать с методами, которыми вы уже пользуетесь.</p>
     <fieldset class="application-map">
-      <legend>Выберите направление</legend>
-      <div class="application-grid">
-        <div class="application-tile"><label class="application-node application-hypnotherapy"><input type="radio" name="sng-application" id="application-hypnotherapy" aria-controls="application-detail-hypnotherapy" checked><span class="application-name">Гипнотерапия</span></label><div class="application-info" id="application-detail-hypnotherapy"><p>Гипнотические методы включают в работу с согласованным запросом, выбирая подход по задаче и реакции клиента.</p></div></div>
-        <div class="application-tile"><label class="application-node application-psychology"><input type="radio" name="sng-application" id="application-psychology" aria-controls="application-detail-psychology"><span class="application-name">Классическая психология</span></label><div class="application-info" id="application-detail-psychology"><p>В консультировании обсуждают, как работа с образами и вниманием может дополнить беседу о переживаниях клиента.</p></div></div>
-        <div class="application-tile"><label class="application-node application-body"><input type="radio" name="sng-application" id="application-body" aria-controls="application-detail-body"><span class="application-name">Телесные практики</span></label><div class="application-info" id="application-detail-body"><p>Общий предмет работы — то, как человек замечает телесные ощущения, распределяет внимание и воспринимает сигнал к расслаблению.</p></div></div>
-        <div class="application-tile"><label class="application-node application-meditation"><input type="radio" name="sng-application" id="application-meditation" aria-controls="application-detail-meditation"><span class="application-name">Медитативные практики</span></label><div class="application-info" id="application-detail-meditation"><p>Сопоставление медитации и гипноза помогает заметить роль фокуса внимания, поглощённости и речевого сопровождения.</p></div></div>
-        <div class="application-tile"><label class="application-node application-esoteric"><input type="radio" name="sng-application" id="application-esoteric" aria-controls="application-detail-esoteric"><span class="application-name">Эзотерические практики</span></label><div class="application-info" id="application-detail-esoteric"><p>Гипноз даёт язык для разбора суггестии, ожиданий и ассоциаций, которые возникают вокруг символов и действий.</p></div></div>
-        <div class="application-tile"><label class="application-node application-coaching"><input type="radio" name="sng-application" id="application-coaching" aria-controls="application-detail-coaching"><span class="application-name">Коучинг</span></label><div class="application-info" id="application-detail-coaching"><p>Работа с воображением может дополнять обсуждение цели и мысленную репетицию следующего действия.</p></div></div>
+      <legend>Направления применения СНГ</legend>
+      <div class="application-wheel">
+        <svg class="application-spokes" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <path class="spoke-hypnotherapy" d="M50 50L50 12"/>
+          <path class="spoke-psychology" d="M50 50L83.5 30"/>
+          <path class="spoke-body" d="M50 50L83.5 70"/>
+          <path class="spoke-meditation" d="M50 50L50 88"/>
+          <path class="spoke-esoteric" d="M50 50L16.5 70"/>
+          <path class="spoke-coaching" d="M50 50L16.5 30"/>
+        </svg>
+        <span class="application-center"><abbr title="Система Неформальной Гипнотизации">СНГ</abbr></span>
+        <label class="application-node" style="--x: 50%; --y: 12%">
+          <input type="radio" name="sng-application" id="application-hypnotherapy" aria-controls="application-detail-hypnotherapy" checked>
+          <span>Гипнотерапия</span>
+        </label>
+        <label class="application-node" style="--x: 83.5%; --y: 30%">
+          <input type="radio" name="sng-application" id="application-psychology" aria-controls="application-detail-psychology">
+          <span>Классическая психология</span>
+        </label>
+        <label class="application-node" style="--x: 83.5%; --y: 70%">
+          <input type="radio" name="sng-application" id="application-body" aria-controls="application-detail-body">
+          <span>Телесные практики</span>
+        </label>
+        <label class="application-node" style="--x: 50%; --y: 88%">
+          <input type="radio" name="sng-application" id="application-meditation" aria-controls="application-detail-meditation">
+          <span>Медитативные практики</span>
+        </label>
+        <label class="application-node" style="--x: 16.5%; --y: 70%">
+          <input type="radio" name="sng-application" id="application-esoteric" aria-controls="application-detail-esoteric">
+          <span>Эзотерические практики</span>
+        </label>
+        <label class="application-node" style="--x: 16.5%; --y: 30%">
+          <input type="radio" name="sng-application" id="application-coaching" aria-controls="application-detail-coaching">
+          <span>Коучинг</span>
+        </label>
+      </div>
+      <div class="application-descriptions" aria-live="polite">
+        <article id="application-detail-hypnotherapy"><h3>Гипнотерапия</h3><p>Гипнотические методы включают в работу с согласованным запросом, выбирая подход по задаче и реакции клиента.</p></article>
+        <article id="application-detail-psychology"><h3>Классическая психология</h3><p>В консультировании обсуждают, как работа с образами и вниманием может дополнить беседу о переживаниях клиента.</p></article>
+        <article id="application-detail-body"><h3>Телесные практики</h3><p>Общий предмет работы — то, как человек замечает телесные ощущения, распределяет внимание и воспринимает сигнал к расслаблению.</p></article>
+        <article id="application-detail-meditation"><h3>Медитативные практики</h3><p>Сопоставление медитации и гипноза помогает заметить роль фокуса внимания, поглощённости и речевого сопровождения.</p></article>
+        <article id="application-detail-esoteric"><h3>Эзотерические практики</h3><p>Гипноз даёт язык для разбора суггестии, ожиданий и ассоциаций, которые возникают вокруг символов и действий.</p></article>
+        <article id="application-detail-coaching"><h3>Коучинг</h3><p>Работа с воображением может дополнять обсуждение цели и мысленную репетицию следующего действия.</p></article>
       </div>
     </fieldset>
     <div class="application-video"><figure class="video">
