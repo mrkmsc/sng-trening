@@ -101,36 +101,52 @@
     <fieldset class="application-map">
       <legend>Направления применения СНГ</legend>
       <div class="application-wheel">
-        <svg class="application-spokes" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-          <path class="spoke-hypnotherapy" d="M50 50L50 12"/>
-          <path class="spoke-psychology" d="M50 50L83.5 30"/>
-          <path class="spoke-body" d="M50 50L83.5 70"/>
-          <path class="spoke-meditation" d="M50 50L50 88"/>
-          <path class="spoke-esoteric" d="M50 50L16.5 70"/>
-          <path class="spoke-coaching" d="M50 50L16.5 30"/>
+        <svg class="application-orbits" viewBox="0 0 1000 500" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="application-orbit-blue" x1="0" y1="0" x2="1" y2="1">
+              <stop stop-color="#8aaabe" stop-opacity=".38"/>
+              <stop offset=".48" stop-color="#709ab9" stop-opacity=".78"/>
+              <stop offset="1" stop-color="#a4c6dd" stop-opacity=".4"/>
+            </linearGradient>
+            <linearGradient id="application-orbit-lavender" x1="0" y1="1" x2="1" y2="0">
+              <stop stop-color="#a79bc8" stop-opacity=".68"/>
+              <stop offset=".55" stop-color="#b1c3d8" stop-opacity=".38"/>
+              <stop offset="1" stop-color="#9e8ec8" stop-opacity=".65"/>
+            </linearGradient>
+            <linearGradient id="application-orbit-silver" x1="0" y1="0" x2="1" y2="1">
+              <stop stop-color="#9cb9d4" stop-opacity=".56"/>
+              <stop offset=".5" stop-color="#94a5bf" stop-opacity=".37"/>
+              <stop offset="1" stop-color="#9bb4ce" stop-opacity=".67"/>
+            </linearGradient>
+          </defs>
+          <ellipse cx="500" cy="250" rx="326" ry="87" transform="rotate(-17 500 250)" stroke="url(#application-orbit-blue)"/>
+          <ellipse cx="500" cy="250" rx="320" ry="89" transform="rotate(14 500 250)" stroke="url(#application-orbit-lavender)"/>
+          <ellipse cx="500" cy="250" rx="224" ry="100" transform="rotate(-56 500 250)" stroke="url(#application-orbit-silver)"/>
+          <ellipse class="application-orbit-glint" cx="500" cy="250" rx="326" ry="87" transform="rotate(-17 500 250)" pathLength="100"/>
+          <ellipse class="application-orbit-glint application-orbit-glint-secondary" cx="500" cy="250" rx="320" ry="89" transform="rotate(14 500 250)" pathLength="100"/>
         </svg>
         <span class="application-center"><abbr title="Система Неформальной Гипнотизации">СНГ</abbr></span>
-        <label class="application-node" style="--x: 50%; --y: 12%">
+        <label class="application-node application-node-top" style="--x: 56.7%; --y: 12.24%">
           <input type="radio" name="sng-application" id="application-hypnotherapy" aria-controls="application-detail-hypnotherapy" checked>
           <span>Гипнотерапия</span>
         </label>
-        <label class="application-node" style="--x: 83.5%; --y: 30%">
+        <label class="application-node application-node-right application-node-silver" style="--x: 79.63%; --y: 27.48%">
           <input type="radio" name="sng-application" id="application-psychology" aria-controls="application-detail-psychology">
           <span>Классическая психология</span>
         </label>
-        <label class="application-node" style="--x: 83.5%; --y: 70%">
+        <label class="application-node application-node-right application-node-lower application-node-lavender" style="--x: 78.66%; --y: 70.26%">
           <input type="radio" name="sng-application" id="application-body" aria-controls="application-detail-body">
           <span>Телесные практики</span>
         </label>
-        <label class="application-node" style="--x: 50%; --y: 88%">
+        <label class="application-node application-node-bottom" style="--x: 43.3%; --y: 87.76%">
           <input type="radio" name="sng-application" id="application-meditation" aria-controls="application-detail-meditation">
           <span>Медитативные практики</span>
         </label>
-        <label class="application-node" style="--x: 16.5%; --y: 70%">
+        <label class="application-node application-node-left application-node-lower application-node-lavender" style="--x: 20.37%; --y: 72.52%">
           <input type="radio" name="sng-application" id="application-esoteric" aria-controls="application-detail-esoteric">
           <span>Эзотерические практики</span>
         </label>
-        <label class="application-node" style="--x: 16.5%; --y: 30%">
+        <label class="application-node application-node-left application-node-silver" style="--x: 21.34%; --y: 29.74%">
           <input type="radio" name="sng-application" id="application-coaching" aria-controls="application-detail-coaching">
           <span>Коучинг</span>
         </label>
