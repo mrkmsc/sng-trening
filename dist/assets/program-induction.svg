@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 150" fill="none" stroke="#8a7047">
+  <defs><ellipse id="orbit" cx="120" cy="75" rx="91" ry="27"/></defs>
+  <g stroke-width=".75">
+    <use href="#orbit" transform="rotate(-36 120 75)" opacity=".58"/>
+    <use href="#orbit" transform="rotate(-24 120 75)" opacity=".7"/>
+    <use href="#orbit" transform="rotate(-12 120 75)" opacity=".8"/>
+    <use href="#orbit" opacity=".9"/>
+    <use href="#orbit" transform="rotate(12 120 75)" opacity=".8"/>
+    <use href="#orbit" transform="rotate(24 120 75)" opacity=".7"/>
+    <use href="#orbit" transform="rotate(36 120 75)" opacity=".58"/>
+    <path d="M20 75h200M120 12v126" opacity=".37" stroke-dasharray="1 4"/>
+    <circle cx="120" cy="75" r="12" opacity=".48"/>
+    <circle cx="120" cy="75" r="2" fill="#8a7047" stroke="none"/>
+  </g>
+</svg>

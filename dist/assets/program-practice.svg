@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 150" fill="none" stroke="#c9ad76" stroke-width=".8">
+  <defs><ellipse id="field" cx="120" cy="75" rx="84" ry="22"/></defs>
+  <g opacity=".63">
+    <use href="#field" transform="rotate(-51 120 75)"/>
+    <use href="#field" transform="rotate(-38 120 75)"/>
+    <use href="#field" transform="rotate(-25 120 75)"/>
+    <use href="#field" transform="rotate(-12 120 75)"/>
+    <use href="#field"/>
+    <use href="#field" transform="rotate(12 120 75)"/>
+    <use href="#field" transform="rotate(25 120 75)"/>
+    <use href="#field" transform="rotate(38 120 75)"/>
+    <use href="#field" transform="rotate(51 120 75)"/>
+  </g>
+  <ellipse cx="120" cy="75" rx="99" ry="57" opacity=".36"/>
+  <ellipse cx="120" cy="75" rx="94" ry="65" stroke-dasharray="1 5" opacity=".52"/>
+  <ellipse cx="120" cy="75" rx="96" ry="47" transform="rotate(-11 120 75)" opacity=".62"/>
+  <circle cx="120" cy="75" r="9" opacity=".64"/>
+  <circle cx="120" cy="75" r="2" fill="#d0b37c" stroke="none"/>
+</svg>

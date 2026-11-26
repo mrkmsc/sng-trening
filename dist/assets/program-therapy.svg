@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 150" fill="none" stroke="#8a7047" stroke-width=".75">
+  <defs>
+    <g id="layers">
+      <ellipse cy="-25" rx="71" ry="26"/>
+      <ellipse cy="-12.5" rx="78" ry="29"/>
+      <ellipse rx="82" ry="33"/>
+      <ellipse cy="12.5" rx="78" ry="29"/>
+      <ellipse cy="25" rx="71" ry="26"/>
+    </g>
+  </defs>
+  <use href="#layers" transform="translate(120 75) rotate(-24)" opacity=".8"/>
+  <ellipse cx="120" cy="75" rx="90" ry="45" transform="rotate(23 120 75)" opacity=".55"/>
+  <path d="m33 113 174-76M90 19l60 112" opacity=".38" stroke-dasharray="1 4"/>
+  <circle cx="120" cy="75" r="2" fill="#8a7047" stroke="none"/>
+</svg>

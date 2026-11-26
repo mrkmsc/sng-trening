@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 420" fill="none">
+  <defs>
+    <linearGradient id="rim" x1="165" y1="340" x2="442" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b69a67" stop-opacity="0"/>
+      <stop offset=".47" stop-color="#b69a67" stop-opacity=".27"/>
+      <stop offset=".79" stop-color="#d2b47e" stop-opacity=".74"/>
+      <stop offset="1" stop-color="#b69a67" stop-opacity=".15"/>
+    </linearGradient>
+    <radialGradient id="beam" cx="0" cy="0" r="1" gradientTransform="translate(365 153) rotate(134) scale(232 88)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d8bb82" stop-opacity=".25"/>
+      <stop offset=".42" stop-color="#ac8a52" stop-opacity=".115"/>
+      <stop offset="1" stop-color="#70552f" stop-opacity="0"/>
+    </radialGradient>
+    <ellipse id="arc" cx="295" cy="216" rx="190" ry="107"/>
+  </defs>
+  <path fill="url(#beam)" d="M91 380 336 34l151 6-177 330Z"/>
+  <g stroke="url(#rim)">
+    <use href="#arc" transform="rotate(-47 295 216)"/>
+    <use href="#arc" transform="rotate(-36 295 216)"/>
+    <use href="#arc" transform="rotate(-25 295 216)"/>
+    <use href="#arc" transform="rotate(-14 295 216)"/>
+    <use href="#arc" transform="rotate(-3 295 216)"/>
+    <use href="#arc" transform="rotate(8 295 216)"/>
+    <path d="m126 377 332-333M217 386 482 118M148 278 387 40" opacity=".55"/>
+    <circle cx="295" cy="216" r="160" stroke-dasharray="1 7" opacity=".8"/>
+  </g>
+</svg>

@@ -1,0 +1,232 @@
+{
+  "videos": [
+    {
+      "id": "-179857931_456239098",
+      "title": "Как проходит тренинг",
+      "category": "Знакомство с обучением",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video-179857931_456239098",
+      "embed": "https://vk.com/video_ext.php?oid=-179857931&id=456239098",
+      "cover": {
+        "file": "dist/assets/intro-cover.jpg",
+        "url": "https://i.vimeocdn.com/video/1915273148-2df14c5a7f5b990f71571fe9ff8482639967c145231a9318fb879422a8ee6175-d_295x166?region=us",
+        "sourcePage": "https://course.psy-sng.ru/"
+      },
+      "relatedVideo": {
+        "title": "Как проходят тренинги",
+        "url": "https://vimeo.com/999129340",
+        "embed": "https://player.vimeo.com/video/999129340",
+        "sourcePage": "https://course.psy-sng.ru/"
+      }
+    },
+    {
+      "id": "-179857931_456239185",
+      "title": "Неформальный гипноз в разных контекстах",
+      "category": "Разбор примеров",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video-179857931_456239185",
+      "embed": "https://vk.com/video_ext.php?oid=-179857931&id=456239185",
+      "cover": {
+        "file": "dist/assets/context-cover.jpg",
+        "url": "https://i.vimeocdn.com/video/1915279004-9aec9c10efa692a448ba7e1e4d75dc81df3f6083907251f5daa57529180b330b-d_295x166?region=us",
+        "sourcePage": "https://course.psy-sng.ru/"
+      }
+    },
+    {
+      "id": "-179857931_456239073",
+      "title": "Отзывы о тренинге",
+      "category": "Выпускники об обучении",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video-179857931_456239073",
+      "embed": "https://vk.com/video_ext.php?oid=-179857931&id=456239073",
+      "cover": {
+        "file": "dist/assets/review-cover.jpg",
+        "url": "https://i.vimeocdn.com/video/1915264490-6007664075eb5aee0f15021aad07115a38c4043721a4627c64b2f534def99922-d_295x166?region=us",
+        "sourcePage": "https://course.psy-sng.ru/"
+      },
+      "relatedVideo": {
+        "title": "Отзывы Профессионалов об обучении Гипнозу по Системе Неформальной Гипнотизации",
+        "url": "https://vimeo.com/999112575",
+        "embed": "https://player.vimeo.com/video/999112575",
+        "sourcePage": "https://course.psy-sng.ru/"
+      }
+    },
+    {
+      "id": "-179857931_456239484",
+      "title": "Гипноз в гипнозе",
+      "category": "Авторская методика",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video-179857931_456239484",
+      "embed": "https://vk.com/video_ext.php?oid=-179857931&id=456239484"
+    },
+    {
+      "id": "-179857931_456239303",
+      "title": "Невербальный гипноз",
+      "category": "Демонстрация",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video-179857931_456239303",
+      "embed": "https://vk.com/video_ext.php?oid=-179857931&id=456239303",
+      "cover": {
+        "file": "dist/assets/nonverbal-cover.jpg",
+        "url": "https://static.tildacdn.com/tild6336-6130-4236-b236-396130653334/75.png",
+        "sourcePage": "https://course.psy-sng.ru/"
+      }
+    },
+    {
+      "id": "-179857931_456239558",
+      "title": "Мгновенный гипноз",
+      "category": "Демонстрация",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video-179857931_456239558",
+      "embed": "https://vk.com/video_ext.php?oid=-179857931&id=456239558",
+      "cover": {
+        "file": "dist/assets/fast-cover.jpg",
+        "url": "https://i.vimeocdn.com/video/1915292994-e35f5820853642c671761754fabd537985023102e11aec1b01bcc0690bdc06be-d_295x166?region=us",
+        "sourcePage": "https://course.psy-sng.ru/"
+      }
+    },
+    {
+      "id": "-179857931_456239500",
+      "title": "Гипнооргазмы",
+      "category": "Демонстрация",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video-179857931_456239500",
+      "embed": "https://vk.com/video_ext.php?oid=-179857931&id=456239500",
+      "cover": {
+        "file": "dist/assets/intimacy-cover.jpg",
+        "url": "https://i.vimeocdn.com/video/1915280306-08704e18680c6c76d0984ab406251d8061240b9210719d8f814fcef182640c07-d_295x166?region=us",
+        "sourcePage": "https://course.psy-sng.ru/"
+      }
+    },
+    {
+      "id": "-179857931_456239168",
+      "title": "Гипноз и другие психопрактики",
+      "category": "Разбор подходов",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video-179857931_456239168",
+      "embed": "https://vk.com/video_ext.php?oid=-179857931&id=456239168"
+    },
+    {
+      "id": "-179857931_456239193",
+      "title": "Гипноз в ритуальном контексте",
+      "category": "Демонстрация",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video-179857931_456239193",
+      "embed": "https://vk.com/video_ext.php?oid=-179857931&id=456239193"
+    },
+    {
+      "id": "206010345_456239089",
+      "title": "Уличный гипноз",
+      "category": "Прикладная практика",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video206010345_456239089",
+      "embed": "https://vk.com/video_ext.php?oid=206010345&id=456239089",
+      "cover": {
+        "file": "dist/assets/street-cover.jpg",
+        "url": "https://static.tildacdn.com/tild3634-3134-4561-a239-366636313433/2_1.png",
+        "sourcePage": "https://course.psy-sng.ru/"
+      }
+    },
+    {
+      "id": "-179857931_456239388",
+      "title": "Глаза гипнотика",
+      "category": "Демонстрация",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video-179857931_456239388",
+      "embed": "https://vk.com/video_ext.php?oid=-179857931&id=456239388"
+    },
+    {
+      "id": "-179857931_456239113",
+      "title": "Гипнотерапия",
+      "category": "Пример сеанса",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video-179857931_456239113",
+      "embed": "https://vk.com/video_ext.php?oid=-179857931&id=456239113",
+      "cover": {
+        "file": "dist/assets/session-cover.jpg",
+        "url": "https://static.tildacdn.com/tild6637-6639-4033-a535-326665633666/3.png",
+        "sourcePage": "https://course.psy-sng.ru/"
+      }
+    },
+    {
+      "id": "206010345_456239163",
+      "title": "Каталептический мост",
+      "category": "Демонстрация",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video206010345_456239163",
+      "embed": "https://vk.com/video_ext.php?oid=206010345&id=456239163"
+    },
+    {
+      "id": "-179857931_456239175",
+      "title": "Экзорцизм. Гипнооргазм",
+      "category": "Демонстрация",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video-179857931_456239175",
+      "embed": "https://vk.com/video_ext.php?oid=-179857931&id=456239175",
+      "cover": {
+        "file": "dist/assets/exorcism-cover.jpg",
+        "url": "https://static.tildacdn.com/tild3539-3838-4633-a534-313431386561/4.png",
+        "sourcePage": "https://course.psy-sng.ru/"
+      }
+    },
+    {
+      "id": "206010345_456239111",
+      "title": "Уличная практика на дольменах",
+      "category": "Прикладная практика",
+      "sourcePage": "https://psy-sng.ru/trening",
+      "url": "https://vkvideo.ru/video206010345_456239111",
+      "embed": "https://vk.com/video_ext.php?oid=206010345&id=456239111",
+      "cover": {
+        "file": "dist/assets/outdoors-cover.jpg",
+        "url": "https://static.tildacdn.com/tild3565-3932-4230-b834-623865663835/5.png",
+        "sourcePage": "https://course.psy-sng.ru/"
+      }
+    }
+  ],
+  "portraits": [
+    {
+      "person": "Марк Орлов",
+      "file": "dist/assets/mark.jpg",
+      "url": "https://static.tildacdn.com/tild6162-3763-4236-b639-626331376537/_.png",
+      "sourcePage": "https://psy-sng.ru/trening"
+    },
+    {
+      "person": "Диана Орлова",
+      "file": "dist/assets/diana.jpg",
+      "url": "https://static.tildacdn.com/tild3434-6161-4562-b266-376537306334/__.png",
+      "sourcePage": "https://psy-sng.ru/trening"
+    },
+    {
+      "person": "Дмитрий Алексеевич",
+      "file": "dist/assets/dmitry.jpg",
+      "url": "https://static.tildacdn.com/tild3832-3666-4137-a535-616666306432/_.png",
+      "sourcePage": "https://psy-sng.ru/trening"
+    }
+  ],
+  "gallery": [
+    {
+      "title": "Парное упражнение на тренинге",
+      "file": "dist/assets/intro-cover.jpg",
+      "url": "https://i.vimeocdn.com/video/1915273148-2df14c5a7f5b990f71571fe9ff8482639967c145231a9318fb879422a8ee6175-d_295x166?region=us",
+      "sourcePage": "https://course.psy-sng.ru/"
+    },
+    {
+      "title": "Занятие в учебном зале",
+      "file": "dist/assets/session-cover.jpg",
+      "url": "https://static.tildacdn.com/tild6637-6639-4033-a535-326665633666/3.png",
+      "sourcePage": "https://course.psy-sng.ru/"
+    },
+    {
+      "title": "Прикладная практика вне аудитории",
+      "file": "dist/assets/outdoors-cover.jpg",
+      "url": "https://static.tildacdn.com/tild3565-3932-4230-b834-623865663835/5.png",
+      "sourcePage": "https://course.psy-sng.ru/"
+    }
+  ],
+  "brand": {
+    "file": "dist/assets/rrh-logo.png",
+    "icon": "dist/assets/rrh-icon.png",
+    "url": "https://static.tildacdn.com/tild3262-3736-4233-b339-373332393263/_4.png",
+    "sourcePage": "https://psy-sng.ru/trening"
+  }
+}
