@@ -106,3 +106,13 @@
 @media (max-width: 540px) {
   #reviews .video-grid { grid-template-columns: 1fr; }
 }
+
+.video-cover--infographic { background: #e8ebf7; }
+.video-cover--infographic img { object-fit: contain; }
+.video-cover--infographic:hover img { transform: none; }
+.video-cover--infographic .play {
+  align-self: end;
+  justify-self: end;
+  width: clamp(2.25rem, 4vw, 3rem);
+  margin: clamp(.45rem, 1vw, .8rem);
+}
